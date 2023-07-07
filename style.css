@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Khand:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-container{
+    background-color: rgb(63, 63, 63);
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    color: white;
+    font-family: Khand;
+    font-size: 20px;
+}
+.menus{
+    display: flex;
+}
+.menu{
+    margin: 10px;
+    padding: 12px;
+    font-size: 16px;
+    font-family: monospace;
+    cursor: pointer;
+}
+.menu:hover{
+    color: rgb(244, 94, 0);
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("./images/background.png"), linear-gradient(45deg, black, rgb(50, 50, 50));
+}
+.title{
+    font-size: 48px;
+}
+.description{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(244, 94, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: rgb(255, 98, 0);
+}
+.about-title{
+    font-family: monospace;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    font-family: monospace;
+    padding: 50px;
+}
+.about-info h1{
+    font-size: 23px;
+}
+.service{
+    background-image: url("./images/background.png"), linear-gradient(45deg, rgb(40, 40, 40), rgb(40, 40, 40));
+}
+.service-title{
+    font-family: monospace;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.box{
+    width: 215px;
+    height: 280px;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-family: monospace;
+    box-shadow: 4px 4px 50px gray;
+    border-radius: 20px;
+}
+.footer-container{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-family: monospace;
+    padding: 80px;
+}
+.footer-logo{
+    font-family: Khand;
+    font-size: 40px;
+}
+.footer-1 p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.footer-title{
+    margin-bottom: 25px;
+    font-size: 19px;
+}
+.footer-container li{
+    color: rgb(223, 223, 223);
+    font-size: 15px;
+    line-height: 1.7;
+}
+.footer{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    margin: auto;
+    width: 85%;
+    height: 0.5px;
+    border-width:0;
+    color: rgb(126, 126, 126);
+    background-color: rgb(126, 126, 126);
+}
+.footer p{
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+}
